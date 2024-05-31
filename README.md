@@ -5,7 +5,7 @@
 
 Projeto disponível no GitHub Pages quando finalizado.
 
-Esse projeto React foi feito usando o [Vite](https://pt.vitejs.dev/guide/). A seguir, vou ensinar como clonar e executar o projeto.
+Esse projeto React foi feito usando o [Vite](https://pt.vitejs.dev/guide/). A seguir, vou ensinar como clonar e explorar o código.
 
 Para começar, clone o repositório do GitHub clicando em "Code" no repositório e abrindo no GitHub Desktop. 
 Em seguida, abra a pasta do projeto recém-clonado. Dentro dessa pasta, execute o comando `npm install` para baixar todas as dependências necessárias. 
