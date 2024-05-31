@@ -10,6 +10,15 @@ html{
     height: 100vh;
 }
 
+body{
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+
 /*Header*/
 
 header{
@@ -163,6 +172,50 @@ header> ul> li > a{
     cursor: pointer;
 }
 
+/*APRESENTAÇÃO DE DULCE - SEGUNDA PARTE*/
+
+#Apresentacao{
+    width: 90vw;
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 10px;
+}
+
+.Apresentacao_Texto{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 13px;
+    text-align: center;
+}
+
+.Apresentacao_Texto_one{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Apresentacao_Texto_Subtitulo{
+    color: grey;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.Apresentacao_Texto_Filosofia{
+    color: #E66F75;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+#Apresentacao img{
+    width: 270px;
+    border-radius: 780px 353px 780px 353px;
+}
+
 @media (max-width: 600px) {
 
     /*Header*/
@@ -203,6 +256,21 @@ header> ul> li > a{
     
     .TituloInicial_Conteudo_BTNS button{
         padding: 5px 10px;
+    }
+
+    /*APRESENTAÇÃO DE DULCE - SEGUNDA PARTE*/
+
+    #Apresentacao{
+       flex-direction: column;
+       margin-top: 30px;
+    }
+
+    .Apresentacao_Imagem{
+        background-color: #c08c0a69;
+        width: 100vw;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
     }
 
 }
