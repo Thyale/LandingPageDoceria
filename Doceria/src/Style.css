@@ -172,6 +172,15 @@ header> ul> li > a{
     cursor: pointer;
 }
 
+.TituloInicial_Conteudo_BTNS button:hover{
+    background-color: #fec2bc;
+}
+
+.TituloInicial_Conteudo_BTNS a{
+    text-decoration: none;
+    color: black;
+}
+
 /*APRESENTAÇÃO DE DULCE - SEGUNDA PARTE*/
 
 #Apresentacao{
@@ -214,6 +223,48 @@ header> ul> li > a{
 #Apresentacao img{
     width: 270px;
     border-radius: 780px 353px 780px 353px;
+}
+
+/*RECEITAS - TERCEIRA PARTE*/
+
+#Receitas{
+    background-color: #FFD8D3;
+    margin-top: 2em;
+}
+
+#Receitas p{
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px 10px 0px 10px;
+}
+
+#Receitas strong{
+    color: #E66F75;
+    font-size: 29px;
+    font-weight: bold;
+}
+
+#Receitas div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+}
+
+#Receitas img{
+    width: 150px;
+    border-radius: 60px 20px 60px 20px;
+    cursor: pointer;
+    box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.314);
+    border: 1px solid #f3ca61a1;
 }
 
 @media (max-width: 600px) {

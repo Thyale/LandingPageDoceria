@@ -12,7 +12,7 @@ export default function Cabecalho(){
         <header>
             <ul>
                 <li><a href="#Apresentacao">SOBRE</a></li>
-                <li><a href="#">RECEITAS</a></li>
+                <li><a href="#Receitas">RECEITAS</a></li>
                 <li><a href="#">PODCAST</a></li>
             </ul>
             <h1>DULCE</h1>

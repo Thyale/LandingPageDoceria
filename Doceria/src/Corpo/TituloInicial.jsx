@@ -9,10 +9,10 @@ export default function TituloInicial(){
                    <p className="TituloInicial_Conteudo_Texto2">Descubra o sabor da felicidade em cada mordida</p>
                 </div>
                 <div className="TituloInicial_Conteudo_BTNS">
-                    <button>BISCO</button>
-                    <button>BROWN</button>
-                    <button>MOUSSE</button>
-                    <button>PUDIM</button>
+                    <button><a href="#Receitas">BISCOITO</a></button>
+                    <button><a href="#Receitas">BROWNIE</a></button>
+                    <button><a href="#Receitas">MOUSSE</a></button>
+                    <button><a href="#Receitas">PUDIM</a></button>
                 </div>
             </div>
         </div>
