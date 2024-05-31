@@ -89,6 +89,80 @@ header> ul> li > a{
     z-index: 1;
 }
 
+/*Main - corpo do site*/
+
+/*TITULO INICIAL - PRIMEIRA PARTE*/
+
+.TituloInicial{
+    background-image: url(./img/BackgroundMAIN.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 91vh;
+    text-align: center;
+    position: relative;
+}
+
+.TituloInicial_Conteudo{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.TituloInicial h1{
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 5px;
+    font-size: 50px;
+}
+
+.TituloInicial_Conteudo_subtitulo{
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 200;
+    font-style: normal;
+    margin-bottom: 30px;
+}
+
+.TituloInicial_Conteudo_Texto1{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.TituloInicial_Conteudo_Texto2{
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 20px;
+    font-size: 25px;
+    margin-bottom: 25px;
+    color: #E66F75;
+}
+
+.TituloInicial_Conteudo_BTNS{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.TituloInicial_Conteudo_BTNS button{
+    text-align: center;
+    background-color: white;
+    border: none;
+    padding: 5px 20px;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    cursor: pointer;
+}
+
 @media (max-width: 600px) {
 
     /*Header*/
@@ -100,4 +174,31 @@ header> ul> li > a{
     #menu{
        display: block;
     }
+
+    /*Main - corpo do site*/
+
+    /*TITULO INICIAL - PRIMEIRA PARTE*/
+
+    .TituloInicial h1{
+        font-size: 40px;
+    }
+    
+    .TituloInicial_Conteudo_subtitulo{
+        margin-bottom: 20px;
+    }
+    
+    .TituloInicial_Conteudo_Texto1{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    
+    .TituloInicial_Conteudo_Texto2{
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    
+    .TituloInicial_Conteudo_BTNS button{
+        padding: 5px 10px;
+    }
+
 }
