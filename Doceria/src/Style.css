@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+}
+
+/*Header*/
+
+header{
+    background-color: #FFD8D3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    padding: 10px;
+    color: black;
+}
+
+header>ul{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  list-style: none;
+}
+
+header> ul> li > a{
+    text-decoration: none;
+    color: black;
+}
+
+#menu{
+    cursor: pointer;
+    display: none;
+}
+
+.MenuLateralDiv{
+    display: none;
+    position: fixed;
+    top: 10px;
+    bottom: 10px;
+    right: 10px;
+    background-color:#E66F75;
+    width: 40vw;
+    border-radius: 20px;
+    padding: 20px;
+    z-index: 2;
+}
+
+.MenuLateralDiv ul{
+    list-style: none;
+    height: 91vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: end;
+}
+
+.MenuLateralDiv a{
+    text-decoration: none;
+    color: #FFD8D3;
+}
+
+#close{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    cursor: pointer;
+    color: #FFD8D3;
+}
+
+.Tranparencia{
+    display: none;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0;
+    background-color:#ffd8d3bc;
+    z-index: 1;
+}
+
+@media (max-width: 600px) {
+
+    /*Header*/
+
+    header>ul{
+       display: none;
+    }
+
+    #menu{
+       display: block;
+    }
+}
