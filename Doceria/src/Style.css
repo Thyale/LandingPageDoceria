@@ -179,6 +179,10 @@ header> ul> li > a{
 
     /*TITULO INICIAL - PRIMEIRA PARTE*/
 
+    .TituloInicial_Conteudo{
+        width: 90vw;
+    }
+
     .TituloInicial h1{
         font-size: 40px;
     }
