@@ -13,8 +13,8 @@ export default function MenuLateral(){
                 <ul className="MenuLateralUl">
                     <li><a onClick={CloseMenu} href="#Apresentacao">SOBRE</a></li>
                     <li><a onClick={CloseMenu} href="#Receitas">RECEITAS</a></li>
-                    <li><a onClick={CloseMenu} href="#">PODCAST</a></li>
-                    <li><a onClick={CloseMenu} href="#">CURSOS</a></li>
+                    <li><a onClick={CloseMenu} href="#PodCast">PODCAST</a></li>
+                    <li><a onClick={CloseMenu} href="#Cursos">CURSOS</a></li>
                     <li><a onClick={CloseMenu} href="#">TREINAMENTO</a></li>
                     <li><a onClick={CloseMenu} href="#">LOJA</a></li>
                 </ul>
