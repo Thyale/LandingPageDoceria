@@ -15,7 +15,7 @@ export default function MenuLateral(){
                     <li><a onClick={CloseMenu} href="#Receitas">RECEITAS</a></li>
                     <li><a onClick={CloseMenu} href="#PodCast">PODCAST</a></li>
                     <li><a onClick={CloseMenu} href="#Cursos">CURSOS</a></li>
-                    <li><a onClick={CloseMenu} href="#">TREINAMENTO</a></li>
+                    <li><a onClick={CloseMenu} href="#Treinamento">TREINAMENTO</a></li>
                     <li><a onClick={CloseMenu} href="#">LOJA</a></li>
                 </ul>
             </nav>

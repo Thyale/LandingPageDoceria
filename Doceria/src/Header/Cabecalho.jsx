@@ -18,7 +18,7 @@ export default function Cabecalho(){
             <h1>DULCE</h1>
             <ul>
                 <li><a href="#Cursos">CURSOS</a></li>
-                <li><a href="#">TREINAMENTO</a></li>
+                <li><a href="#Treinamento">TREINAMENTO</a></li>
                 <li><a href="#">LOJA</a></li>
             </ul>
             <span onClick={OpenMenuLateral} id="menu" class="material-symbols-outlined">menu</span>

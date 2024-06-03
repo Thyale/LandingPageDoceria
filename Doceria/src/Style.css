@@ -359,7 +359,7 @@ header> ul> li > a{
 /*TREINAMENTO - SEXTA PARTE*/
 
 #Treinamento{
-    background-color: #fec2bc;
+    background-color: #ffdfd2;
     padding: 20px 10px;
 }
 
@@ -389,7 +389,7 @@ header> ul> li > a{
 }
 
 .Treinamento_DivGeral>div{
-    background-color: #ecaeb0;
+    background-color: #ffcac4;
     width: 200px;
     display: flex;
     flex-direction: column;
