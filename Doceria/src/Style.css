@@ -67,7 +67,7 @@ header> ul> li > a{
 
 .MenuLateralDiv ul{
     list-style: none;
-    height: 91vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -585,8 +585,6 @@ header> ul> li > a{
     }
 
     .Apresentacao_Imagem{
-        background-color: #c08c0a69;
-        width: 100vw;
         padding: 15px;
         display: flex;
         justify-content: center;
