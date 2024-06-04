@@ -1,5 +1,5 @@
 # Landing Page - Doceria DULCE
- Criação de uma Landing Page de uma deceria ficticia. Projeto feito em REACT.
+ Criação de uma Landing Page de uma doceria ficticia. Projeto feito em REACT.
  
  "Descubra o sabor da felicidade em cada mordida. Na Dulce, preparamos doces artesanais com ingredientes selecionados e um toque especial de amor. De bolos a brigadeiros, cada criação é pensada para adoçar seu dia e tornar seus momentos ainda mais especiais. Venha nos visitar e experimente a verdadeira doçura da vida!"
 
