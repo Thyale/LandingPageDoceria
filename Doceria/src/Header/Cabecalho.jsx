@@ -19,7 +19,7 @@ export default function Cabecalho(){
             <ul>
                 <li><a href="#Cursos">CURSOS</a></li>
                 <li><a href="#Treinamento">TREINAMENTO</a></li>
-                <li><a href="#">LOJA</a></li>
+                <li><a href="#Loja">LOJA</a></li>
             </ul>
             <span onClick={OpenMenuLateral} id="menu" class="material-symbols-outlined">menu</span>
             <Transparencia/>

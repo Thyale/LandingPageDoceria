@@ -406,11 +406,6 @@ header> ul> li > a{
     transition: transform 1s;
 }
 
-#Treinamento img{
-    width:100%;
-    border-radius: 20px;
-}
-
 .Treinamento_Texto{
     color: rgb(66, 66, 66);
     font-size: 12px;
@@ -423,6 +418,122 @@ header> ul> li > a{
     margin-bottom: 10px;
 }
 
+/*LOJA - SETIMA PARTE*/
+
+#Loja{
+    background-image: linear-gradient(to left, #ff9196, #ffcac4, #FFD8D3);
+    padding: 20px;
+}
+
+.Loja_Titulo{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.Loja_Titulo_BoasVindas{
+   font-size: 10px;
+   font-family: "Roboto Mono", monospace;
+   margin-bottom: 5px;
+}
+
+.Loja_Titulo_Principal{
+    font-family: "IBM Plex Serif", serif;
+    font-size: 20px;
+}
+
+.Loja_DivGeral{
+    padding-top: 1em;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    max-width: 900px;
+}
+
+.Loja_DivGeral div{
+    backdrop-filter: blur(100px);
+    padding: 10px;
+    width: 150px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Loja_DivGeral img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Loja_DivGeral_Titulo{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 15px;
+    font-family: "Roboto Mono", monospace;
+}
+
+.Loja_DivGeral_Valor{
+    color: #b08415;
+    font-size: 13px;
+    font-family: "Roboto Mono", monospace;
+}
+
+.Loja_DivGeral_Valor strong{
+    font-size: 6px;
+}
+
+#Loja a{
+    text-decoration: none;
+    color: rgb(182, 182, 182);
+    font-family: "IBM Plex Serif", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    font-size: 13px;
+}
+
+/*Footer*/
+
+#Footer{
+    background-color: #ffe3df;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+.Footer_Imgs{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.Footer_Imgs i{
+    font-size: 25px;
+}
+
+.Footer_Links ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+    font-size: 12px;
+    font-family: "Roboto Mono", monospace;
+}
+
+.Footer_Links a{
+    text-decoration: none;
+    color: black;
+}
+
+.Footer_Texto{
+    font-family: "Roboto Mono", monospace;
+    font-size: 8px;
+}
 
 @media (max-width: 600px) {
 
