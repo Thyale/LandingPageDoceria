@@ -3,7 +3,7 @@
  
  "Descubra o sabor da felicidade em cada mordida. Na Dulce, preparamos doces artesanais com ingredientes selecionados e um toque especial de amor. De bolos a brigadeiros, cada criação é pensada para adoçar seu dia e tornar seus momentos ainda mais especiais. Venha nos visitar e experimente a verdadeira doçura da vida!"
 
-Projeto disponível no GitHub Pages quando finalizado.
+Projeto disponível no GitHub Pages : https://thyale.github.io/LandingPageDoceria/
 
 Esse projeto React foi feito usando o [Vite](https://pt.vitejs.dev/guide/). A seguir, vou ensinar como clonar e explorar o código.
 
